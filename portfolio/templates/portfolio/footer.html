@@ -1,0 +1,87 @@
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Left Section -->
+        <div class="footer-left">
+            <h3>Neha Patel</h3>
+            <p>BCA Student | Web Developer</p>
+        </div>
+
+        <!-- Center Section -->
+        <div class="footer-center">
+            <p>Built with</p>
+            <span>HTML • CSS • JavaScript • Django</span>
+        </div>
+
+        <!-- Right Section -->
+        <div class="footer-right">
+            <p>© 2026 All Rights Reserved</p>
+        </div>
+
+    </div>
+</footer>
+
+<style>
+/* ================= FOOTER ================= */
+.footer {
+    background-color: #0b1120;
+    color: #e5e7eb;
+    padding: 30px 20px;
+    margin-top: 60px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+}
+
+.footer-left h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.footer-center p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-center span {
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.footer-right p {
+    font-size: 13px;
+    color: #9ca3af;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0b1120;
+    color: #e5e7eb;
+    padding: 30px 20px;
+    text-align: center;
+    z-index: 999; /* stays on top of other elements */
+}
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
+</style>
